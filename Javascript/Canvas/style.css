@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.canvas {
+    visibility: hidden;
+}
+
+.div2 {
+    visibility: hidden;
+}
+
+.beaty {
+    visibility: hidden;
+}
+
+.rounddiv {
+    visibility: hidden;
+}
+
+.sans{
+    font-family: "Comic Relief";
+}
+
+.comic-relief-regular {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
