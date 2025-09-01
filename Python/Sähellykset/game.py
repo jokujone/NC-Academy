@@ -3,6 +3,10 @@ import time
 import sys
 import os
 
+#AI GENERATED SLOP:
+#AI GENERATED SLOP:
+#AI GENERATED SLOP:
+
 # --- Game Constants ---
 PLAYER_START_MONEY = 1000
 CASINO_MIN_BET = 10

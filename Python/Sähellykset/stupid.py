@@ -1,5 +1,7 @@
 import random
 
+#AI GENERATED SLOP:
+
 def guess_the_number():
  
     number = random.randint(1, 10000)

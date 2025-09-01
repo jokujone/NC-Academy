@@ -1,6 +1,8 @@
 import time
 import random
 
+#AI GENERATED SLOP:
+
 class RenaultTwingo:
     def __init__(self):
         self.speed = 0
