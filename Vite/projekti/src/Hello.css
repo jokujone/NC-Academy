@@ -1,0 +1,13 @@
+.div {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    align-self:last baseline;
+    background-color: rgb(250, 212, 41);
+}
+
+.text{
+    color: #000;
+    font-size: 50px;
+}

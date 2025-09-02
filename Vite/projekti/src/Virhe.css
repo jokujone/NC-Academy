@@ -1,0 +1,24 @@
+.warning {
+    animation: warning infinite 500s ease-in-out;
+    font-size: 150px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.warningText {
+    align-self: center;
+    display: flex;
+    
+}
+
+@keyframes warning {
+  from {
+    background-color: #ff0000;
+  }
+
+  to {
+    background-color: #ff9900;
+  }
+}
