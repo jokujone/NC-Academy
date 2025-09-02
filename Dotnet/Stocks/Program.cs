@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Globalization;
 
+//Keskeneräinen projekti
+
 namespace Stocks
 {
     class Program
@@ -236,12 +238,34 @@ namespace Stocks
             "sole",
             "novo",
             "pack",
+            "real",
+            "full",
+            "sum",
+            "run",
+            "start",
+            "fuel",
+            "field",
+            "tree",
+            "main",
+            "master",
+            "mini",
+            "max",
+            "soft",
+            "micro",
+            "wave",
+            "idea",
+            "day",
+            "train",
+            "twin",
+            "turbo",
+            "two",
+            "one",
         };
         static string[] suffixes =
         {
-            "Inc",
+            "Inc.",
             "Gmbh",
-            "co",
+            "Co.",
             "Oy",
             "Ab",
             "Group",
