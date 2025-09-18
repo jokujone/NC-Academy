@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+	Random rand = new Random();
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        Welcome user @rand.Next(10000000, 50000000)
+</h1>
+@{
+    if (isOneMillionthUserOnThisWebsiteAndWinsACar(rand.Next(1, 2000000)))
+    {
+        <h2>Congratulations! You are the one millionth user on this website and win a car!</h2>
+    }
+}
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+@{
+    bool isOneMillionthUserOnThisWebsiteAndWinsACar(int i)
+    {
+        if (i == 1000000)
+        {
+            return true;
+        }
+        else if (i != 1000000)
+        {
+            return maybe();
+        }
+        return no();
+    }
+
+    bool maybe()
+    {
+        return perhaps();
+    }
+
+    bool perhaps()
+    {
+        if (false != false && true != (rand.NextDouble() > 5))
+        {
+            return true;
+        }
+        return rand.NextDouble() > 0x7FFFFFFF / (double)0xFFFFFFFF;
+	}
+
+    bool no()
+    {
+        return butWhatIf();
+	}
+
+    bool butWhatIf()
+    {
+        if (true)
+            return false;
+	}
+}

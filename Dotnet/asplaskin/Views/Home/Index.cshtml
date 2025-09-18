@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">TIME TO CATCULATE</h1>
+    <input id="input1" type="text" />
+    <input id="input2" type="text" />
+    <button onclick="catculate()">Catculate</button>
+    <div id="result" style="margin-top:20px;"></div>
+    <div id="cat-images"></div>
+</div>
+
+@section Scripts {
+    <script>
+        function catculate() {
+            var val1 = document.getElementById('input1').value;
+            var val2 = document.getElementById('input2').value;
+            var num1 = parseFloat(val1);
+            var num2 = parseFloat(val2);
+
+            var sum = num1 + num2;
+            document.getElementById('result').innerText = "Result: " + sum;
+
+            var catImagesDiv = document.getElementById('cat-images');
+            catImagesDiv.innerHTML = '';
+            var count = Math.floor(sum);
+            for (var i = 0; i < count; i++) {
+                var img = document.createElement('img');
+                img.src = '/cat.png';
+                img.alt = 'Cat';
+                img.style.margin = '5px';
+                catImagesDiv.appendChild(img);
+            }
+        }
+    </script>
+}
