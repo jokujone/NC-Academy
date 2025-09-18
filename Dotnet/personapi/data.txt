@@ -1,0 +1,9 @@
+﻿Nimi,Osoite,Maa
+Jaska Jokunen,Kotikatu 12 B,Suomi
+Maija Meikäläinen,Kadunkulma 34 A,Suomi
+John Doe,123 Main Street,USA
+Liisa Lähde,Vesitie 6 C,Suomi
+Carlos Castillo,Avenida Principal 45,Espanja
+Emily Evans,10 Elm Street,Kanada
+Hans Müller,Hauptstraße 21,Saksa
+Maria Silva,Rua das Flores 17,Portugali
